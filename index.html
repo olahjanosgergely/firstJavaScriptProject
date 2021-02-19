@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>IP CALCULATOR</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" media="all">
+	<script src="calculationScript.js"></script>
+</head>
+<body>
+	<div class="heady">
+		<h1>ip calculator</h1>
+	</div>
+	<div class="menu">
+		<ul class="main-menu">
+			<li><a href="" id="menu1">programming</a><span id="under1">_</span></li>
+			<li><a href="" id="menu2">web-development</a><span id="under2">_</span></li>
+		</ul>
+	</div>
+	
+	<div class="main">
+		<div class="control">
+			<label>IP_Address:</label>
+			<input class="textBox" type="text" id="ip_address"><br><br>
+			<label>Mask(0:32):</label>
+			<input class="textBox" type="text" id="ip_mask"><br><br>
+			<input class="button1" onclick="getIP_address()" type="submit" value="Calculate">
+			<input class="button2" onclick="infoclick()" type="submit" value="?">
+			<div class="output1">
+				<a id="the_ip">IP ADDRESS:</a><br>
+				<a id="the_mask">MASK:</a>
+			</div>
+			
+			<div class="output2">
+				<a id="inBinary">binary:</a>
+			</div>
+			
+			<div class="output3">
+				<a id="network">Network:</a><br>
+				<a id="broadcast">Broadcast:</a><br>
+				<a id="wildcard">Wildcard:</a><br>
+				<a id="netmask">Netmask:</a><br>
+				<hr>
+				<a id="hosts">Hosts:</a><br>
+				<hr>
+				<a id="startIP">First IP:</a><br>
+				<a id="lastIP">Last IP:</a>
+			</div>
+			
+			<div class="footy" id="footy">
+				<a>min and max value checking is left to be added.</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
