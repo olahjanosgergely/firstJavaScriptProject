@@ -154,22 +154,17 @@ body{
 	display:none;
 	border:0.1rem dashed red;
 }
-.button2{
-	border-radius:0.1rem;
-	color:white;
-	font-family:courier;
-	background-color:var(--newBlue).9;
-	outline:none;
-	margin-bottom:0.5rem;
-}
-.button2:hover{
-	opacity:70%;
-	color:var(--newYellow);
-}
-
 .main:hover{
 	border-top-left-radius:0.7rem;
 	border-bottom-left-radius:0.7rem;
 	opacity:90%;
 	transition:all 1s;
+}
+.tb:focus{
+	color:white;
+	background:black;
+	transition:all 1s;
+}
+.tb{
+	transition:all 0.2s;
 }
