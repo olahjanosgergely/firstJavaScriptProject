@@ -21,11 +21,12 @@
 	<div class="main">
 		<div class="control">
 			<label>IP_Address:</label>
-			<input class="textBox" type="text" id="ip_address"><br><br>
+			<input class="textBox tb" type="text" id="ip_address"><br><br>
 			<label>Mask(0:32):</label>
-			<input class="textBox" type="text" id="ip_mask"><br><br>
+			<input class="textBox tb" type="text" id="ip_mask"><br><br>
 			<input class="button1" onclick="getIP_address()" type="submit" value="Calculate">
-			<input class="button2" onclick="infoclick()" type="submit" value="?">
+			<input class="button1" onclick="history.go(0);" type="submit" value="&#x21bb;">
+			<input class="button1" onclick="infoclick()" type="submit" value="?">
 			<div class="output1">
 				<a id="the_ip">IP ADDRESS:</a><br>
 				<a id="the_mask">MASK:</a>
@@ -43,7 +44,7 @@
 				<hr>
 				<a id="hosts">Hosts:</a><br>
 				<hr>
-				<a id="startIP">Start IP:</a><br>
+				<a id="startIP">First IP:</a><br>
 				<a id="lastIP">Last IP:</a>
 			</div>
 			
