@@ -35,8 +35,8 @@ function infoclick(){
 }
 
 function basics(ip,mask){
-		document.getElementById("the_mask").innerHTML = "MASK: "+mask;
-		document.getElementById("the_ip").innerHTML = "IP ADDRESS: "+ip;
+	document.getElementById("the_mask").innerHTML = "MASK: "+mask;
+	document.getElementById("the_ip").innerHTML = "IP ADDRESS: "+ip;
 	
 }
 function iptobinary(ip){
